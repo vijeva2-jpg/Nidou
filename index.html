@@ -28,6 +28,38 @@ body.is-home #app{min-height:100svh}
 @media(max-width:650px){.launch{padding:45px 18px 60px}.launch-logo{font-size:5.2rem}.launch-subtitle{margin:14px 0 30px}.launch-grid{gap:12px}.launch-button{min-height:134px;border-radius:25px;font-size:1.9rem}.launch-button-arrow{right:12px;top:12px}.teddy{left:-6px;bottom:6%;font-size:3rem}.moon{right:1%;top:6%;font-size:4rem}.star-one{left:6%;top:8%;font-size:2rem}.flower{display:none}.cloud-left{font-size:5rem;left:-30px;top:29%}.cloud-right{font-size:6rem;right:-30px;bottom:9%}}
 @media(max-width:350px){.launch-grid{grid-template-columns:1fr}.launch-button{min-height:85px;flex-direction:row;font-size:1.6rem}.launch-button-arrow{top:25px}}
 
+
+/* Night nursery palette — homepage only; inner strategy pages retain their light backgrounds */
+body.is-home{background:#192742}
+.launch{
+  background:
+    radial-gradient(circle at 14% 16%,rgba(144,145,208,.25),transparent 29%),
+    radial-gradient(circle at 88% 18%,rgba(121,150,207,.25),transparent 32%),
+    radial-gradient(circle at 74% 90%,rgba(190,127,173,.18),transparent 30%),
+    linear-gradient(145deg,#1b2c4b 0%,#263557 49%,#343554 100%);
+}
+.launch:before,.launch:after{border-color:#bcb9e944;opacity:.65}
+.launch-logo{color:#fff5f9;text-shadow:0 8px 30px #10162d60}
+.launch-logo span{color:#f4b9d4}
+.launch-subtitle{color:#e4ddeb}
+.launch-button{color:#34415b;border-color:#ffffffaa;box-shadow:0 18px 44px #10162d49}
+.launch-button:hover{box-shadow:0 28px 58px #0c153459}
+.launch-pink{background:linear-gradient(145deg,#f7dce9,#f2cbdc)}
+.launch-lilac{background:linear-gradient(145deg,#e8dffa,#d9cff3)}
+.launch-yellow{background:linear-gradient(145deg,#fff0ce,#f6e0b5)}
+.launch-blue{background:linear-gradient(145deg,#dceefa,#c9e2f4)}
+.launch-button-arrow{color:#52607e}
+.deco-cloud{color:#abb9df;opacity:.45}
+.cloud-right{color:#9abce3;opacity:.4}
+.moon{color:#ffe5b8;text-shadow:0 0 40px #f7deb47d;opacity:.9}
+.star{color:#fae5bb;text-shadow:0 0 25px #ffe0b688}
+.star-two{color:#d8c5ff}
+.star-three{color:#f3c7de}
+.flower{color:#e9bad6}
+.launch-bottom{color:#c9c3dd}
+.launch:after{box-shadow:0 0 100px #7b85bf26}
+@media(max-width:650px){.launch-logo{color:#fff5f9}}
+
 </style></head><body>
 <header class="nav"><div class="shell navinner"><a class="brand" href="#/">nidou<span class="dot">.</span></a><nav class="links" aria-label="Navigation principale"><a href="#/" data-nav="home">Accueil</a><a href="#/interface" data-nav="interface">Interface</a><a href="#/pestel" data-nav="pestel">PESTEL</a><a href="#/porter" data-nav="porter">Porter</a><a href="#/swot" data-nav="swot">SWOT</a></nav></div></header>
 <main id="app"></main>
