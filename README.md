@@ -8,7 +8,12 @@ Site vitrine statique et étude stratégique de la plateforme fictive **Nidou**,
 - `/#/pestel` : analyse PESTEL
 - `/#/porter` : cinq forces concurrentielles de Porter
 - `/#/swot` : SWOT et axes TOWS
-- `/#/bmc` : Business Model Canvas en neuf blocs, hypothèses du modèle économique
+- `/#/bmc` : Business Model Canvas en neuf blocs (commission, réservation/paiement sur plateforme, lancement national)
+
+## Modèle économique retenu
+- **Monétisation :** commission sur les prestations réservées et payées via Nidou (taux à définir).
+- **Parcours :** réservation et paiement intégrés à Nidou (fonctionnalités envisagées, non actives dans le prototype).
+- **Déploiement :** ouverture nationale ; l’offre disponible dépendra de la couverture des doulas selon les zones.
 
 ## Lancer localement
 Ouvrir `index.html` dans un navigateur ou lancer un serveur statique (`python -m http.server 8000`).
