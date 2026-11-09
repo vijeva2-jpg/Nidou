@@ -11,7 +11,7 @@ Site vitrine statique et étude stratégique de la plateforme fictive **Nidou**,
 - `/#/bmc` : Business Model Canvas en neuf blocs (commission, réservation/paiement sur plateforme, lancement national)
 
 ## Modèle économique retenu
-- **Monétisation :** commission sur les prestations réservées et payées via Nidou (taux à définir).
+- **Monétisation :** commission sur les prestations réservées et payées via Nidou.
 - **Parcours :** réservation et paiement intégrés à Nidou (fonctionnalités envisagées, non actives dans le prototype).
 - **Déploiement :** ouverture nationale ; l’offre disponible dépendra de la couverture des doulas selon les zones.
 
