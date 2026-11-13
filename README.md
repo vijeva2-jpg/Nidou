@@ -10,7 +10,7 @@ Site vitrine statique et étude stratégique de la plateforme fictive **Nidou**,
 - `/#/swot` : SWOT et axes TOWS
 - `/#/bmc` : Business Model Canvas en neuf blocs (commission, réservation/paiement sur plateforme, lancement national)
 - `/#/concurrents` : panorama des concurrents et tarifs publics sourcés
-- `/#/materiel` : achats, dépenses initiales et charges à prévoir (budget indicatif de 2 900 €)
+- `/#/materiel` : achats, dépenses initiales et charges à prévoir (budget de trésorerie indicatif de 1 430 € et contributions internes valorisées à 2 850 €)
 
 ## Modèle économique retenu
 - **Monétisation :** commission sur les prestations réservées et payées via Nidou.
@@ -37,4 +37,4 @@ Ceci est un **projet pédagogique**. Les profils, tarifs et services de l'interf
 Références listées au bas de la page PESTEL : INSEE, Santé publique France, CNIL, DGCCRF et Doulas de France.
 
 ## Travail de terrain à compléter
-Le questionnaire et les interviews des familles/doulas sont encore à réaliser. Les hypothèses de panier moyen (75 €), de commission (15 %) et de dépenses de lancement sont des bases pédagogiques, pas des résultats validés.
+Le questionnaire et les interviews des familles/doulas sont encore à réaliser. Les hypothèses de panier moyen (75 €), de commission (15 %), de dépenses de lancement (1 430 € de décaissement prévu) et de valorisation des contributions internes (2 850 € non décaissés) sont des bases pédagogiques, pas des résultats validés.
