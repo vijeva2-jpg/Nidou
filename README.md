@@ -3,12 +3,14 @@
 Site vitrine statique et étude stratégique de la plateforme fictive **Nidou**, une marketplace de mise en relation avec des doulas indépendantes.
 
 ## Pages
-- `/#/` : accueil et cinq accès
+- `/#/` : accueil et sept accès avec bulles interactives
 - `/#/interface` : prototype fictif de recherche et fiches de doulas
 - `/#/pestel` : analyse PESTEL
 - `/#/porter` : cinq forces concurrentielles de Porter
 - `/#/swot` : SWOT et axes TOWS
 - `/#/bmc` : Business Model Canvas en neuf blocs (commission, réservation/paiement sur plateforme, lancement national)
+- `/#/concurrents` : panorama des concurrents et tarifs publics sourcés
+- `/#/materiel` : achats, dépenses initiales et charges à prévoir (budget indicatif de 2 900 €)
 
 ## Modèle économique retenu
 - **Monétisation :** commission sur les prestations réservées et payées via Nidou.
@@ -33,3 +35,6 @@ Ceci est un **projet pédagogique**. Les profils, tarifs et services de l'interf
 
 ## Sources
 Références listées au bas de la page PESTEL : INSEE, Santé publique France, CNIL, DGCCRF et Doulas de France.
+
+## Travail de terrain à compléter
+Le questionnaire et les interviews des familles/doulas sont encore à réaliser. Les hypothèses de panier moyen (75 €), de commission (15 %) et de dépenses de lancement sont des bases pédagogiques, pas des résultats validés.
