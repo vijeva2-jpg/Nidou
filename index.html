@@ -158,8 +158,31 @@ body.is-home{background:#192742}
 }
 @media(max-width:350px){.orbit-menu{grid-template-columns:repeat(2,1fr)}}
 
+
+/* Navigation des pages d'étude — mêmes rubriques que les bulles d'accueil */
+.nav{box-shadow:0 5px 22px #50385a0a}
+.navinner{min-height:74px;gap:24px}
+.nav .brand{flex-shrink:0}
+.nav .links{flex:1;justify-content:flex-end;gap:5px}
+.nav .links a{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:10px 11px;border:1px solid transparent;border-radius:999px;white-space:nowrap;font-size:.79rem;font-weight:700;transition:background .2s,transform .2s,color .2s}
+.nav .links a:first-child{background:transparent}
+.nav .links a:hover,.nav .links a.active,.nav .links a:first-child.active{background:#f0e7f8;border-color:#e9d8f2;color:#5d416b}
+.nav .links a:hover{transform:translateY(-2px)}
+.nav-icon{font-size:1.12rem;line-height:1;display:inline-grid;place-items:center;min-width:18px}
+@media(max-width:1060px){
+ .navinner{display:flex;flex-direction:column;gap:4px;padding:13px 0 10px}
+ .nav .links{width:100%;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap;padding:3px 2px 7px;scrollbar-width:thin;scrollbar-color:#d6c3e6 transparent}
+ .nav .links a{flex-shrink:0}
+}
+@media(max-width:680px){
+ .navinner{align-items:flex-start}
+ .nav .brand{font-size:1.75rem}
+ .nav .links{gap:3px}
+ .nav .links a{font-size:.79rem;padding:9px 11px}
+}
+
 </style></head><body>
-<header class="nav"><div class="shell navinner"><a class="brand" href="#/">nidou<span class="dot">.</span></a><nav class="links" aria-label="Navigation principale"><a href="#/" data-nav="home">Accueil</a><a href="#/interface" data-nav="interface">Interface</a><a href="#/pestel" data-nav="pestel">PESTEL</a><a href="#/porter" data-nav="porter">Porter</a><a href="#/swot" data-nav="swot">SWOT</a><a href="#/bmc" data-nav="bmc">BMC</a><a href="#/concurrents" data-nav="concurrents">Concurrents</a><a href="#/materiel" data-nav="materiel">Achats</a></nav></div></header>
+<header class="nav"><div class="shell navinner"><a class="brand" href="#/" aria-label="Nidou, retour à l’accueil">nidou<span class="dot">.</span></a><nav class="links" aria-label="Navigation principale"><a href="#/" data-nav="home" title="Accueil"><span class="nav-icon" aria-hidden="true">⌂</span><span>Accueil</span></a><a href="#/interface" data-nav="interface" title="Prototype"><span class="nav-icon" aria-hidden="true">🧸</span><span>Prototype</span></a><a href="#/swot" data-nav="swot" title="SWOT"><span class="nav-icon" aria-hidden="true">✦</span><span>SWOT</span></a><a href="#/porter" data-nav="porter" title="Porter"><span class="nav-icon" aria-hidden="true">⚖</span><span>Porter</span></a><a href="#/pestel" data-nav="pestel" title="PESTEL"><span class="nav-icon" aria-hidden="true">☁</span><span>PESTEL</span></a><a href="#/bmc" data-nav="bmc" title="BMC"><span class="nav-icon" aria-hidden="true">◈</span><span>BMC</span></a><a href="#/concurrents" data-nav="concurrents" title="Concurrents"><span class="nav-icon" aria-hidden="true">◎</span><span>Concurrents</span></a><a href="#/materiel" data-nav="materiel" title="Budget & achats"><span class="nav-icon" aria-hidden="true">✎</span><span>Budget & achats</span></a></nav></div></header>
 <main id="app"></main>
 <footer class="footer"><div class="shell footinner"><span><strong>nidou.</strong> — Bien entourés, dès les premiers instants.</span><span>Projet pédagogique INSEEC Bordeaux · 2026 · Service fictif, aucune réservation réelle</span></div></footer>
 <script>
