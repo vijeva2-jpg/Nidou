@@ -1,0 +1,12 @@
+# Source/configuration files must not be served as static web assets
+.git/
+.github/
+.gitignore
+.assetsignore
+wrangler.jsonc
+wrangler.toml
+README.md
+*.md
+node_modules/
+package.json
+package-lock.json
